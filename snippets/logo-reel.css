@@ -1,0 +1,9 @@
+/* If a line of logos or other images that are sized inconsistently,
+   use this to make all logos the same size and remove any white background.
+ */
+.logo-reel img {
+  width: 15%;
+  aspect-ratio: 3/4;
+  object-fit: contain;
+  mix-blend-mode: color-burn;
+}
